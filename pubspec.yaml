@@ -1,0 +1,43 @@
+name: qragga
+description: "QRagga — Offline Barcode & QR Code Reader, Creator and Card Designer for Flutter."
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # Barcode generation (1D & 2D formats: QR, Aztec, Data Matrix, PDF417, Code128, Code39, EAN13, EAN8, UPC-A, Codabar, ITF)
+  barcode_widget: ^2.0.4
+  barcode: ^2.2.9
+  qr_flutter: ^4.1.0
+
+  # Camera scanner & gallery barcode detection
+  mobile_scanner: ^5.2.3
+
+  # Offline persistence & state
+  shared_preferences: ^2.3.2
+
+  # Device utilities, file export and sharing
+  path_provider: ^2.1.4
+  share_plus: ^10.0.2
+  url_launcher: ^6.3.0
+  image_picker: ^1.1.2
+  file_picker: ^8.1.2
+  
+  # UI styling & color picker
+  flutter_colorpicker: ^1.1.0
+  intl: ^0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/

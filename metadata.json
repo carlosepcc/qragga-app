@@ -1,0 +1,10 @@
+{
+  "name": "Qragga Flutter",
+  "description": "Fully offline barcodes reader and creator.\nQR, Aztec, Data Matrix, Barcode 128, and more, with no ADs nor premium features and a focus on privacy-first local storage for all scanned data.",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

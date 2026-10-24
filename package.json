@@ -1,0 +1,10 @@
+{
+  "name": "qragga-flutter",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node dev_server.js",
+    "build": "echo 'Flutter project ready for Android Studio'",
+    "start": "node dev_server.js"
+  }
+}
